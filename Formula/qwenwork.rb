@@ -2,28 +2,28 @@
 class Qwenwork < Formula
   desc "Qwen Code with Qwen Work account login"
   homepage "https://file.teambition.net/public/homebrew"
-  version "0.26.2"
+  version "0.26.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://file.teambition.net/public/homebrew/qwenwork-0.26.2/qwen-code-darwin-arm64.tar.gz"
-      sha256 "f80be536d50f53947cc79f9ead9bb52b1fe7c2d8636b68f0aa45b417ca749a2f"
+      url "https://file.teambition.net/public/homebrew/qwenwork-0.26.3/qwen-code-darwin-arm64.tar.gz"
+      sha256 "22d2ecd03535d4879fc92fd3096111ed4bb02a38e99c5e117489a1bf213edf94"
     end
     on_intel do
-      url "https://file.teambition.net/public/homebrew/qwenwork-0.26.2/qwen-code-darwin-x64.tar.gz"
-      sha256 "226ea9629603fdc4f67093f2a8ef8a3a7e29eb9773f5928f95ce1ad6bebe169e"
+      url "https://file.teambition.net/public/homebrew/qwenwork-0.26.3/qwen-code-darwin-x64.tar.gz"
+      sha256 "92800fe1f1377223c6e01c6e499eb11361d05bae3ab9d8bb8f0aaf1d423c23e9"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://file.teambition.net/public/homebrew/qwenwork-0.26.2/qwen-code-linux-arm64.tar.gz"
-      sha256 "8404b94f7c406ba667cebae3fe5ca2469f7247e389e59fc68f2da3e315e8d8b4"
+      url "https://file.teambition.net/public/homebrew/qwenwork-0.26.3/qwen-code-linux-arm64.tar.gz"
+      sha256 "66318cc83025cd0d482d3508d84359628432bc771505cf83b49be8a97f5f463f"
     end
     on_intel do
-      url "https://file.teambition.net/public/homebrew/qwenwork-0.26.2/qwen-code-linux-x64.tar.gz"
-      sha256 "ce510b9433955188d5811a9644314e11900f49e2224a9c943a8187333b07b192"
+      url "https://file.teambition.net/public/homebrew/qwenwork-0.26.3/qwen-code-linux-x64.tar.gz"
+      sha256 "5239148f7383dc2236f3a6e279fc4f2b3cf1984b5b3070948f763fe86e919e4f"
     end
   end
 
